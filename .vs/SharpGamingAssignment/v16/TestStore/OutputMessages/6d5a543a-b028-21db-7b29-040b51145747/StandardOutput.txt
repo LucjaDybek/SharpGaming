@@ -1,0 +1,100 @@
+2021-12-15 15:43:49.0611  INFO Starting test: FilteringResultsForLast7Days
+2021-12-15 15:43:49.0611  INFO Starting test: FilteringResultsForLast7Days
+2021-12-15 15:43:49.0614 TRACE > Set up AtataContext
+2021-12-15 15:43:49.0614 TRACE > Set up AtataContext
+2021-12-15 15:43:49.0620 TRACE - Use: "Atata.json" config
+2021-12-15 15:43:49.0620 TRACE - Use: "Atata.json" config
+2021-12-15 15:43:49.0623 TRACE - Set: BaseUrl=https://www.oddsking.com/
+2021-12-15 15:43:49.0623 TRACE - Set: BaseUrl=https://www.oddsking.com/
+2021-12-15 15:43:49.0654 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-12-15 15:43:49.0654 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-12-15 15:43:49.0656 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-12-15 15:43:49.0656 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-12-15 15:43:49.0658 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-12-15 15:43:49.0658 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-12-15 15:43:49.0662 TRACE - Set: Culture=en-US
+2021-12-15 15:43:49.0662 TRACE - Set: Culture=en-US
+2021-12-15 15:43:49.0669 TRACE - Set: DriverService=ChromeDriverService on port 61284
+2021-12-15 15:43:49.0669 TRACE - Set: DriverService=ChromeDriverService on port 61284
+2021-12-15 15:43:50.2572 TRACE - Set: Driver=ChromeDriver (alias=chrome-headless)
+2021-12-15 15:43:50.2572 TRACE - Set: Driver=ChromeDriver (alias=chrome-headless)
+2021-12-15 15:43:50.2586 TRACE < Set up AtataContext (1.197s)
+2021-12-15 15:43:50.2586 TRACE < Set up AtataContext (1.197s)
+Given User enters to the Results page
+2021-12-15 15:43:50.2979  INFO Go to "Lotto" page
+2021-12-15 15:43:50.2979  INFO Go to "Lotto" page
+2021-12-15 15:43:50.3393  INFO Go to URL "https://www.oddsking.com/lotto/irish"
+2021-12-15 15:43:50.3393  INFO Go to URL "https://www.oddsking.com/lotto/irish"
+2021-12-15 15:43:53.1058  INFO > Click "Results" control
+2021-12-15 15:43:53.1058  INFO > Click "Results" control
+2021-12-15 15:43:53.1101 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Results" control
+2021-12-15 15:43:53.1101 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Results" control
+2021-12-15 15:43:53.1363 TRACE - - > Find visible elements by CSS selector "[data-actionable = 'Lotto.SelectLottoBanner.Results']" in ChromeDriver
+2021-12-15 15:43:53.1363 TRACE - - > Find visible elements by CSS selector "[data-actionable = 'Lotto.SelectLottoBanner.Results']" in ChromeDriver
+2021-12-15 15:43:53.1853 TRACE - - < Find visible elements by CSS selector "[data-actionable = 'Lotto.SelectLottoBanner.Results']" in ChromeDriver (0.046s) >> Element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 }
+2021-12-15 15:43:53.1853 TRACE - - < Find visible elements by CSS selector "[data-actionable = 'Lotto.SelectLottoBanner.Results']" in ChromeDriver (0.046s) >> Element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 }
+2021-12-15 15:43:53.1902 TRACE - - > Find visible element by XPath "descendant-or-self::*" in Element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 }
+2021-12-15 15:43:53.1902 TRACE - - > Find visible element by XPath "descendant-or-self::*" in Element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 }
+2021-12-15 15:43:53.2261 TRACE - - < Find visible element by XPath "descendant-or-self::*" in Element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 } (0.035s) >> Element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 }
+2021-12-15 15:43:53.2261 TRACE - - < Find visible element by XPath "descendant-or-self::*" in Element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 } (0.035s) >> Element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 }
+2021-12-15 15:43:53.2272 TRACE - - > Click element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 }
+2021-12-15 15:43:53.2272 TRACE - - > Click element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 }
+2021-12-15 15:43:53.2798 TRACE - - < Click element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 } (0.052s)
+2021-12-15 15:43:53.2798 TRACE - - < Click element { Id=aafbb0a9-571e-4bfa-b00e-1e5f6f9cf4c4 } (0.052s)
+2021-12-15 15:43:53.2804 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Results" control (0.170s)
+2021-12-15 15:43:53.2804 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Results" control (0.170s)
+2021-12-15 15:43:53.2807  INFO < Click "Results" control (0.174s)
+2021-12-15 15:43:53.2807  INFO < Click "Results" control (0.174s)
+-> done: LottoSteps.GivenUserEntersToTheResultsPage() (3,0s)
+When User picks the date -7 days ago and show results
+2021-12-15 15:43:53.2847  INFO > Click "Date From" control
+2021-12-15 15:43:53.2847  INFO > Click "Date From" control
+2021-12-15 15:43:53.2851 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Date From" control
+2021-12-15 15:43:53.2851 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Date From" control
+2021-12-15 15:43:53.2863 TRACE - - > Find visible elements by CSS selector "[data-actionable = 'Lotto.ResultsDateFilter.SetDateFrom']" in ChromeDriver
+2021-12-15 15:43:53.2863 TRACE - - > Find visible elements by CSS selector "[data-actionable = 'Lotto.ResultsDateFilter.SetDateFrom']" in ChromeDriver
+2021-12-15 15:43:53.8355 TRACE - - < Find visible elements by CSS selector "[data-actionable = 'Lotto.ResultsDateFilter.SetDateFrom']" in ChromeDriver (0.549s) >> Element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f }
+2021-12-15 15:43:53.8355 TRACE - - < Find visible elements by CSS selector "[data-actionable = 'Lotto.ResultsDateFilter.SetDateFrom']" in ChromeDriver (0.549s) >> Element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f }
+2021-12-15 15:43:53.8381 TRACE - - > Find visible element by XPath "descendant-or-self::*" in Element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f }
+2021-12-15 15:43:53.8381 TRACE - - > Find visible element by XPath "descendant-or-self::*" in Element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f }
+2021-12-15 15:43:54.0137 TRACE - - < Find visible element by XPath "descendant-or-self::*" in Element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f } (0.175s) >> Element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f }
+2021-12-15 15:43:54.0137 TRACE - - < Find visible element by XPath "descendant-or-self::*" in Element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f } (0.175s) >> Element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f }
+2021-12-15 15:43:54.0169 TRACE - - > Click element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f }
+2021-12-15 15:43:54.0169 TRACE - - > Click element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f }
+2021-12-15 15:43:54.1475 TRACE - - < Click element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f } (0.130s)
+2021-12-15 15:43:54.1475 TRACE - - < Click element { Id=a29fa42e-e572-44cf-b50b-baeaac8c718f } (0.130s)
+2021-12-15 15:43:54.1482 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Date From" control (0.863s)
+2021-12-15 15:43:54.1482 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Date From" control (0.863s)
+2021-12-15 15:43:54.1485  INFO < Click "Date From" control (0.863s)
+2021-12-15 15:43:54.1485  INFO < Click "Date From" control (0.863s)
+2021-12-15 15:43:54.4424  INFO > Click "View Results" button
+2021-12-15 15:43:54.4424  INFO > Click "View Results" button
+2021-12-15 15:43:54.4432 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "View Results" button
+2021-12-15 15:43:54.4432 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "View Results" button
+2021-12-15 15:43:54.4451 TRACE - - > Find visible elements by CSS selector "[data-actionable = 'LottoApp.ResultsPage.DateFilter.submit']" in ChromeDriver
+2021-12-15 15:43:54.4451 TRACE - - > Find visible elements by CSS selector "[data-actionable = 'LottoApp.ResultsPage.DateFilter.submit']" in ChromeDriver
+2021-12-15 15:43:54.4961 TRACE - - < Find visible elements by CSS selector "[data-actionable = 'LottoApp.ResultsPage.DateFilter.submit']" in ChromeDriver (0.050s) >> Element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 }
+2021-12-15 15:43:54.4961 TRACE - - < Find visible elements by CSS selector "[data-actionable = 'LottoApp.ResultsPage.DateFilter.submit']" in ChromeDriver (0.050s) >> Element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 }
+2021-12-15 15:43:54.4969 TRACE - - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 }
+2021-12-15 15:43:54.4969 TRACE - - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 }
+2021-12-15 15:43:54.5221 TRACE - - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 } (0.025s) >> Element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 }
+2021-12-15 15:43:54.5221 TRACE - - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 } (0.025s) >> Element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 }
+2021-12-15 15:43:54.5227 TRACE - - > Click element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 }
+2021-12-15 15:43:54.5227 TRACE - - > Click element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 }
+2021-12-15 15:43:54.5669 TRACE - - < Click element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 } (0.044s)
+2021-12-15 15:43:54.5669 TRACE - - < Click element { Id=7c7a8250-ea81-4aa3-9112-34b9ea0f7ae2 } (0.044s)
+2021-12-15 15:43:54.5675 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "View Results" button (0.124s)
+2021-12-15 15:43:54.5675 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "View Results" button (0.124s)
+2021-12-15 15:43:54.5678  INFO < Click "View Results" button (0.125s)
+2021-12-15 15:43:54.5678  INFO < Click "View Results" button (0.125s)
+-> done: LottoSteps.WhenUserPicksTheDate7DaysAgoAndShowResults("-7") (6,3s)
+Then Results section only show results from -7 days
+-> done: LottoSteps.ThenResultsSectionOnlyShowResultsFromDays("-7") (0,2s)
+2021-12-15 15:43:59.8190  INFO > Clean up AtataContext
+2021-12-15 15:43:59.8190  INFO > Clean up AtataContext
+2021-12-15 15:43:59.9108  INFO < Clean up AtataContext (0.091s)
+2021-12-15 15:43:59.9108  INFO < Clean up AtataContext (0.091s)
+2021-12-15 15:43:59.9112  INFO Finished test (10.849s)
+2021-12-15 15:43:59.9112  INFO Finished test (10.849s)
+2021-12-15 15:43:59.9114  INFO Pure test execution time: 9.558s
+2021-12-15 15:43:59.9114  INFO Pure test execution time: 9.558s

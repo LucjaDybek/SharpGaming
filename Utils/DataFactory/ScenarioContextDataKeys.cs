@@ -9,9 +9,6 @@
         public static string Password => "password";
         public static string Country => "country";
         public static string PhoneNumber => "phoneNumber";
-        public static string UserToken => "userToken";
         public static string UserId => "userId";
-        public static string SizeA => "sizeA";
-        public static string SizeB => "sizeB";
     }
 }

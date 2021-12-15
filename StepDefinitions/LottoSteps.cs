@@ -1,9 +1,6 @@
 ﻿using Atata;
 using IFlow.Testing.StepDefinitions;
 using SharpGaming.Pages;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using TechTalk.SpecFlow;
 
 namespace SharpGaming.StepDefinitions
@@ -16,7 +13,6 @@ namespace SharpGaming.StepDefinitions
         {
             Go.To<LottoPage>()
                 .ResultsButton.Click();
-           
         }
 
         [When(@"User picks the date (.*) days ago and show results")]

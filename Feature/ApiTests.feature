@@ -1,6 +1,6 @@
 ﻿Feature: ApiTests
 	As a user, I want to check 
-	health informations 
+	informations by API
 
 Scenario: User wants to check health information status by API
 	When User check health service status information by Api

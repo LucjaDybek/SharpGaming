@@ -1,5 +1,7 @@
-﻿using Flurl.Http;
+﻿using FluentAssertions;
+using Flurl.Http;
 using IFlow.Testing.Utils.DataFactory;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace IFlow.Testing.Utils.Api
@@ -18,6 +20,17 @@ namespace IFlow.Testing.Utils.Api
                 .AllowAnyHttpStatus()
                 .SetQueryParam("languageCode", language)
                 .GetJsonAsync());
+        }
+
+        public static void AreListElementsEqual(List<int> responseCountries) 
+        {
+            for (int i = 0; i < responseCountries.Count; i++)
+            {
+                for (int j = responseCountries.Count - 1; j > 0; j--)
+                {
+                    if (i != j) responseCountries[i].Should().Equals(responseCountries[j]);
+                }
+            }
         }
     }
 }

@@ -1,0 +1,654 @@
+2021-12-15 17:13:23.9665  INFO Starting test: RegistrationWithCorrectSetOfData
+2021-12-15 17:13:23.9665  INFO Starting test: RegistrationWithCorrectSetOfData
+2021-12-15 17:13:24.0071 TRACE > Set up AtataContext
+2021-12-15 17:13:24.0071 TRACE > Set up AtataContext
+2021-12-15 17:13:24.0919 TRACE - Use: "Atata.json" config
+2021-12-15 17:13:24.0919 TRACE - Use: "Atata.json" config
+2021-12-15 17:13:24.0929 TRACE - Set: BaseUrl=https://www.oddsking.com/
+2021-12-15 17:13:24.0929 TRACE - Set: BaseUrl=https://www.oddsking.com/
+2021-12-15 17:13:24.1045 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-12-15 17:13:24.1045 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-12-15 17:13:24.1071 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-12-15 17:13:24.1071 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-12-15 17:13:24.1078 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-12-15 17:13:24.1078 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-12-15 17:13:24.1175 TRACE - Set: Culture=en-US
+2021-12-15 17:13:24.1175 TRACE - Set: Culture=en-US
+2021-12-15 17:13:24.1380 TRACE - Set: DriverService=ChromeDriverService on port 49289
+2021-12-15 17:13:24.1380 TRACE - Set: DriverService=ChromeDriverService on port 49289
+2021-12-15 17:13:25.2516 TRACE - Set: Driver=ChromeDriver (alias=chrome-headless)
+2021-12-15 17:13:25.2516 TRACE - Set: Driver=ChromeDriver (alias=chrome-headless)
+2021-12-15 17:13:25.2538 TRACE < Set up AtataContext (1.246s)
+2021-12-15 17:13:25.2538 TRACE < Set up AtataContext (1.246s)
+Given Unregister user creates an account
+2021-12-15 17:13:25.5335  INFO Go to "Main" page
+2021-12-15 17:13:25.5335  INFO Go to "Main" page
+2021-12-15 17:13:25.6086  INFO Go to URL "https://www.oddsking.com/"
+2021-12-15 17:13:25.6086  INFO Go to URL "https://www.oddsking.com/"
+2021-12-15 17:13:28.5088 TRACE > Execute trigger WaitForAttribute { Until=Visible, ThrowOnPresenceFailure=true, ThrowOnAbsenceFailure=true, PresenceTimeout=5, AbsenceTimeout=5, RetryInterval=0.5 } on Init against "Join" control
+2021-12-15 17:13:28.5088 TRACE > Execute trigger WaitForAttribute { Until=Visible, ThrowOnPresenceFailure=true, ThrowOnAbsenceFailure=true, PresenceTimeout=5, AbsenceTimeout=5, RetryInterval=0.5 } on Init against "Join" control
+2021-12-15 17:13:28.5146  INFO - > Wait until "Join" control is visible within 5s with throw on failure with 0.5s retry interval
+2021-12-15 17:13:28.5146  INFO - > Wait until "Join" control is visible within 5s with throw on failure with 0.5s retry interval
+2021-12-15 17:13:28.5893 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' _1mng1hj7 ')]/descendant-or-self::*" in ChromeDriver
+2021-12-15 17:13:28.5893 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' _1mng1hj7 ')]/descendant-or-self::*" in ChromeDriver
+2021-12-15 17:13:28.9160 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' _1mng1hj7 ')]/descendant-or-self::*" in ChromeDriver (0.325s) >> Element { Id=06edf77d-b883-4d0a-88e7-5a9d590f24f4 }
+2021-12-15 17:13:28.9160 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' _1mng1hj7 ')]/descendant-or-self::*" in ChromeDriver (0.325s) >> Element { Id=06edf77d-b883-4d0a-88e7-5a9d590f24f4 }
+2021-12-15 17:13:28.9166  INFO - < Wait until "Join" control is visible within 5s with throw on failure with 0.5s retry interval (0.402s)
+2021-12-15 17:13:28.9166  INFO - < Wait until "Join" control is visible within 5s with throw on failure with 0.5s retry interval (0.402s)
+2021-12-15 17:13:28.9170 TRACE < Execute trigger WaitForAttribute { Until=Visible, ThrowOnPresenceFailure=true, ThrowOnAbsenceFailure=true, PresenceTimeout=5, AbsenceTimeout=5, RetryInterval=0.5 } on Init against "Join" control (0.408s)
+2021-12-15 17:13:28.9170 TRACE < Execute trigger WaitForAttribute { Until=Visible, ThrowOnPresenceFailure=true, ThrowOnAbsenceFailure=true, PresenceTimeout=5, AbsenceTimeout=5, RetryInterval=0.5 } on Init against "Join" control (0.408s)
+2021-12-15 17:13:28.9180  INFO > Click "Join" control
+2021-12-15 17:13:28.9180  INFO > Click "Join" control
+2021-12-15 17:13:28.9204 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Join" control
+2021-12-15 17:13:28.9204 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Join" control
+2021-12-15 17:13:28.9236 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' _1mng1hj7 ')]/descendant-or-self::*" in ChromeDriver
+2021-12-15 17:13:28.9236 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' _1mng1hj7 ')]/descendant-or-self::*" in ChromeDriver
+2021-12-15 17:13:28.9601 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' _1mng1hj7 ')]/descendant-or-self::*" in ChromeDriver (0.036s) >> Element { Id=06edf77d-b883-4d0a-88e7-5a9d590f24f4 }
+2021-12-15 17:13:28.9601 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' _1mng1hj7 ')]/descendant-or-self::*" in ChromeDriver (0.036s) >> Element { Id=06edf77d-b883-4d0a-88e7-5a9d590f24f4 }
+2021-12-15 17:13:28.9614 TRACE - - > Click element { Id=06edf77d-b883-4d0a-88e7-5a9d590f24f4 }
+2021-12-15 17:13:28.9614 TRACE - - > Click element { Id=06edf77d-b883-4d0a-88e7-5a9d590f24f4 }
+2021-12-15 17:13:29.0226 TRACE - - < Click element { Id=06edf77d-b883-4d0a-88e7-5a9d590f24f4 } (0.061s)
+2021-12-15 17:13:29.0226 TRACE - - < Click element { Id=06edf77d-b883-4d0a-88e7-5a9d590f24f4 } (0.061s)
+2021-12-15 17:13:29.0232 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Join" control (0.102s)
+2021-12-15 17:13:29.0232 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Join" control (0.102s)
+2021-12-15 17:13:29.0234  INFO < Click "Join" control (0.105s)
+2021-12-15 17:13:29.0234  INFO < Click "Join" control (0.105s)
+-> done: RegisterSteps.GivenUnregisterUserCreatesAnAccount() (3,8s)
+When User provides login data
+2021-12-15 17:13:29.0452  INFO Go to "Register" page
+2021-12-15 17:13:29.0452  INFO Go to "Register" page
+2021-12-15 17:13:29.1205  INFO > Assert: "AcceptCookiesButton" button enabled state should be true
+2021-12-15 17:13:29.1205  INFO > Assert: "AcceptCookiesButton" button enabled state should be true
+2021-12-15 17:13:29.1302 TRACE - > Find visible elements by CSS selector "[data-actionable = 'Header.CookieBanner.accept_cookies']" in ChromeDriver
+2021-12-15 17:13:29.1302 TRACE - > Find visible elements by CSS selector "[data-actionable = 'Header.CookieBanner.accept_cookies']" in ChromeDriver
+2021-12-15 17:13:30.7234 TRACE - < Find visible elements by CSS selector "[data-actionable = 'Header.CookieBanner.accept_cookies']" in ChromeDriver (1.592s) >> Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.7234 TRACE - < Find visible elements by CSS selector "[data-actionable = 'Header.CookieBanner.accept_cookies']" in ChromeDriver (1.592s) >> Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.7253 TRACE - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.7253 TRACE - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.7538 TRACE - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 } (0.028s) >> Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.7538 TRACE - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 } (0.028s) >> Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.7669  INFO < Assert: "AcceptCookiesButton" button enabled state should be true (1.646s)
+2021-12-15 17:13:30.7669  INFO < Assert: "AcceptCookiesButton" button enabled state should be true (1.646s)
+2021-12-15 17:13:30.7676  INFO > Click "AcceptCookiesButton" button
+2021-12-15 17:13:30.7676  INFO > Click "AcceptCookiesButton" button
+2021-12-15 17:13:30.7682 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "AcceptCookiesButton" button
+2021-12-15 17:13:30.7682 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "AcceptCookiesButton" button
+2021-12-15 17:13:30.7694 TRACE - - > Find visible elements by CSS selector "[data-actionable = 'Header.CookieBanner.accept_cookies']" in ChromeDriver
+2021-12-15 17:13:30.7694 TRACE - - > Find visible elements by CSS selector "[data-actionable = 'Header.CookieBanner.accept_cookies']" in ChromeDriver
+2021-12-15 17:13:30.8030 TRACE - - < Find visible elements by CSS selector "[data-actionable = 'Header.CookieBanner.accept_cookies']" in ChromeDriver (0.033s) >> Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.8030 TRACE - - < Find visible elements by CSS selector "[data-actionable = 'Header.CookieBanner.accept_cookies']" in ChromeDriver (0.033s) >> Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.8036 TRACE - - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.8036 TRACE - - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.8269 TRACE - - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 } (0.023s) >> Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.8269 TRACE - - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 } (0.023s) >> Element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.8275 TRACE - - > Click element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.8275 TRACE - - > Click element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 }
+2021-12-15 17:13:30.9044 TRACE - - < Click element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 } (0.076s)
+2021-12-15 17:13:30.9044 TRACE - - < Click element { Id=4caff935-123b-46a7-9c43-8786248fc4a0 } (0.076s)
+2021-12-15 17:13:30.9051 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "AcceptCookiesButton" button (0.136s)
+2021-12-15 17:13:30.9051 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "AcceptCookiesButton" button (0.136s)
+2021-12-15 17:13:30.9054  INFO < Click "AcceptCookiesButton" button (0.137s)
+2021-12-15 17:13:30.9054  INFO < Click "AcceptCookiesButton" button (0.137s)
+2021-12-15 17:13:30.9090 TRACE > Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Email Input" text input
+2021-12-15 17:13:30.9090 TRACE > Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Email Input" text input
+2021-12-15 17:13:30.9109  INFO - > Wait: "Email Input" text input enabled state should be true
+2021-12-15 17:13:30.9109  INFO - > Wait: "Email Input" text input enabled state should be true
+2021-12-15 17:13:30.9131 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.email']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:30.9131 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.email']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:30.9422 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.email']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.029s) >> Element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 }
+2021-12-15 17:13:30.9422 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.email']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.029s) >> Element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 }
+2021-12-15 17:13:30.9543  INFO - < Wait: "Email Input" text input enabled state should be true (0.043s)
+2021-12-15 17:13:30.9543  INFO - < Wait: "Email Input" text input enabled state should be true (0.043s)
+2021-12-15 17:13:30.9548 TRACE < Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Email Input" text input (0.045s)
+2021-12-15 17:13:30.9548 TRACE < Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Email Input" text input (0.045s)
+2021-12-15 17:13:30.9606  INFO > Set "Candice_Konopelski95@yahoo.com" to "Email Input" text input
+2021-12-15 17:13:30.9606  INFO > Set "Candice_Konopelski95@yahoo.com" to "Email Input" text input
+2021-12-15 17:13:30.9638 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Email Input" text input
+2021-12-15 17:13:30.9638 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Email Input" text input
+2021-12-15 17:13:30.9651 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.email']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:30.9651 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.email']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:30.9904 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.email']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.025s) >> Element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 }
+2021-12-15 17:13:30.9904 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.email']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.025s) >> Element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 }
+2021-12-15 17:13:30.9913 TRACE - - > Clear element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 }
+2021-12-15 17:13:30.9913 TRACE - - > Clear element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 }
+2021-12-15 17:13:31.0234 TRACE - - < Clear element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 } (0.032s)
+2021-12-15 17:13:31.0234 TRACE - - < Clear element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 } (0.032s)
+2021-12-15 17:13:31.0243 TRACE - - > Send keys "Candice_Konopelski95@yahoo.com" to element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 }
+2021-12-15 17:13:31.0243 TRACE - - > Send keys "Candice_Konopelski95@yahoo.com" to element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 }
+2021-12-15 17:13:31.2906 TRACE - - < Send keys "Candice_Konopelski95@yahoo.com" to element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 } (0.266s)
+2021-12-15 17:13:31.2906 TRACE - - < Send keys "Candice_Konopelski95@yahoo.com" to element { Id=43c8b34b-3188-4a6a-8a6e-8a71c6899357 } (0.266s)
+2021-12-15 17:13:31.2933 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Email Input" text input (0.329s)
+2021-12-15 17:13:31.2933 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Email Input" text input (0.329s)
+2021-12-15 17:13:31.2952  INFO < Set "Candice_Konopelski95@yahoo.com" to "Email Input" text input (0.334s)
+2021-12-15 17:13:31.2952  INFO < Set "Candice_Konopelski95@yahoo.com" to "Email Input" text input (0.334s)
+2021-12-15 17:13:31.2984  INFO > Set "Mireille_Bailey59" to "User Name Input" text input
+2021-12-15 17:13:31.2984  INFO > Set "Mireille_Bailey59" to "User Name Input" text input
+2021-12-15 17:13:31.3006 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "User Name Input" text input
+2021-12-15 17:13:31.3006 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "User Name Input" text input
+2021-12-15 17:13:31.3030 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.username']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:31.3030 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.username']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:31.3309 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.username']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.027s) >> Element { Id=e1aae285-2a43-405a-9a19-89f829896b38 }
+2021-12-15 17:13:31.3309 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.username']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.027s) >> Element { Id=e1aae285-2a43-405a-9a19-89f829896b38 }
+2021-12-15 17:13:31.3314 TRACE - - > Clear element { Id=e1aae285-2a43-405a-9a19-89f829896b38 }
+2021-12-15 17:13:31.3314 TRACE - - > Clear element { Id=e1aae285-2a43-405a-9a19-89f829896b38 }
+2021-12-15 17:13:31.3598 TRACE - - < Clear element { Id=e1aae285-2a43-405a-9a19-89f829896b38 } (0.028s)
+2021-12-15 17:13:31.3598 TRACE - - < Clear element { Id=e1aae285-2a43-405a-9a19-89f829896b38 } (0.028s)
+2021-12-15 17:13:31.3603 TRACE - - > Send keys "Mireille_Bailey59" to element { Id=e1aae285-2a43-405a-9a19-89f829896b38 }
+2021-12-15 17:13:31.3603 TRACE - - > Send keys "Mireille_Bailey59" to element { Id=e1aae285-2a43-405a-9a19-89f829896b38 }
+2021-12-15 17:13:31.4756 TRACE - - < Send keys "Mireille_Bailey59" to element { Id=e1aae285-2a43-405a-9a19-89f829896b38 } (0.115s)
+2021-12-15 17:13:31.4756 TRACE - - < Send keys "Mireille_Bailey59" to element { Id=e1aae285-2a43-405a-9a19-89f829896b38 } (0.115s)
+2021-12-15 17:13:31.4763 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "User Name Input" text input (0.175s)
+2021-12-15 17:13:31.4763 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "User Name Input" text input (0.175s)
+2021-12-15 17:13:31.4766  INFO < Set "Mireille_Bailey59" to "User Name Input" text input (0.178s)
+2021-12-15 17:13:31.4766  INFO < Set "Mireille_Bailey59" to "User Name Input" text input (0.178s)
+2021-12-15 17:13:31.4769  INFO > Set "6b$my^[Rk" to "Password Input" password input
+2021-12-15 17:13:31.4769  INFO > Set "6b$my^[Rk" to "Password Input" password input
+2021-12-15 17:13:31.4771 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Password Input" password input
+2021-12-15 17:13:31.4771 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Password Input" password input
+2021-12-15 17:13:31.4778 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.password']/descendant-or-self::input[@type='password']" in ChromeDriver
+2021-12-15 17:13:31.4778 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.password']/descendant-or-self::input[@type='password']" in ChromeDriver
+2021-12-15 17:13:31.5116 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.password']/descendant-or-self::input[@type='password']" in ChromeDriver (0.033s) >> Element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa }
+2021-12-15 17:13:31.5116 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.AccountSection.password']/descendant-or-self::input[@type='password']" in ChromeDriver (0.033s) >> Element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa }
+2021-12-15 17:13:31.5123 TRACE - - > Clear element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa }
+2021-12-15 17:13:31.5123 TRACE - - > Clear element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa }
+2021-12-15 17:13:31.5471 TRACE - - < Clear element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa } (0.034s)
+2021-12-15 17:13:31.5471 TRACE - - < Clear element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa } (0.034s)
+2021-12-15 17:13:31.5475 TRACE - - > Send keys "6b$my^[Rk" to element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa }
+2021-12-15 17:13:31.5475 TRACE - - > Send keys "6b$my^[Rk" to element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa }
+2021-12-15 17:13:31.6217 TRACE - - < Send keys "6b$my^[Rk" to element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa } (0.074s)
+2021-12-15 17:13:31.6217 TRACE - - < Send keys "6b$my^[Rk" to element { Id=c125a528-9895-40d3-ac03-f3adbe5636fa } (0.074s)
+2021-12-15 17:13:31.6231 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Password Input" password input (0.145s)
+2021-12-15 17:13:31.6231 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Password Input" password input (0.145s)
+2021-12-15 17:13:31.6248  INFO < Set "6b$my^[Rk" to "Password Input" password input (0.147s)
+2021-12-15 17:13:31.6248  INFO < Set "6b$my^[Rk" to "Password Input" password input (0.147s)
+2021-12-15 17:13:31.6260  INFO > Assert: "Terms Agreement Check Box" control enabled state should be true
+2021-12-15 17:13:31.6260  INFO > Assert: "Terms Agreement Check Box" control enabled state should be true
+2021-12-15 17:13:31.6292 TRACE - > Find element by XPath "(//div[@data-actionable = 'RegistrationPage.TermsAndConditions.agree_terms']//span[1])/descendant-or-self::*" in ChromeDriver
+2021-12-15 17:13:31.6292 TRACE - > Find element by XPath "(//div[@data-actionable = 'RegistrationPage.TermsAndConditions.agree_terms']//span[1])/descendant-or-self::*" in ChromeDriver
+2021-12-15 17:13:31.6465 TRACE - < Find element by XPath "(//div[@data-actionable = 'RegistrationPage.TermsAndConditions.agree_terms']//span[1])/descendant-or-self::*" in ChromeDriver (0.017s) >> Element { Id=1aef1aa6-a1c3-4409-a403-88e444335bd5 }
+2021-12-15 17:13:31.6465 TRACE - < Find element by XPath "(//div[@data-actionable = 'RegistrationPage.TermsAndConditions.agree_terms']//span[1])/descendant-or-self::*" in ChromeDriver (0.017s) >> Element { Id=1aef1aa6-a1c3-4409-a403-88e444335bd5 }
+2021-12-15 17:13:31.6574  INFO < Assert: "Terms Agreement Check Box" control enabled state should be true (0.031s)
+2021-12-15 17:13:31.6574  INFO < Assert: "Terms Agreement Check Box" control enabled state should be true (0.031s)
+2021-12-15 17:13:31.6580  INFO > Click "Terms Agreement Check Box" control
+2021-12-15 17:13:31.6580  INFO > Click "Terms Agreement Check Box" control
+2021-12-15 17:13:31.6584 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Terms Agreement Check Box" control
+2021-12-15 17:13:31.6584 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Terms Agreement Check Box" control
+2021-12-15 17:13:31.6590 TRACE - - > Find element by XPath "(//div[@data-actionable = 'RegistrationPage.TermsAndConditions.agree_terms']//span[1])/descendant-or-self::*" in ChromeDriver
+2021-12-15 17:13:31.6590 TRACE - - > Find element by XPath "(//div[@data-actionable = 'RegistrationPage.TermsAndConditions.agree_terms']//span[1])/descendant-or-self::*" in ChromeDriver
+2021-12-15 17:13:31.6680 TRACE - - < Find element by XPath "(//div[@data-actionable = 'RegistrationPage.TermsAndConditions.agree_terms']//span[1])/descendant-or-self::*" in ChromeDriver (0.009s) >> Element { Id=1aef1aa6-a1c3-4409-a403-88e444335bd5 }
+2021-12-15 17:13:31.6680 TRACE - - < Find element by XPath "(//div[@data-actionable = 'RegistrationPage.TermsAndConditions.agree_terms']//span[1])/descendant-or-self::*" in ChromeDriver (0.009s) >> Element { Id=1aef1aa6-a1c3-4409-a403-88e444335bd5 }
+2021-12-15 17:13:31.6689 TRACE - - > Click element { Id=1aef1aa6-a1c3-4409-a403-88e444335bd5 }
+2021-12-15 17:13:31.6689 TRACE - - > Click element { Id=1aef1aa6-a1c3-4409-a403-88e444335bd5 }
+2021-12-15 17:13:31.7618 TRACE - - < Click element { Id=1aef1aa6-a1c3-4409-a403-88e444335bd5 } (0.092s)
+2021-12-15 17:13:31.7618 TRACE - - < Click element { Id=1aef1aa6-a1c3-4409-a403-88e444335bd5 } (0.092s)
+2021-12-15 17:13:31.7623 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Terms Agreement Check Box" control (0.103s)
+2021-12-15 17:13:31.7623 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Terms Agreement Check Box" control (0.103s)
+2021-12-15 17:13:31.7626  INFO < Click "Terms Agreement Check Box" control (0.104s)
+2021-12-15 17:13:31.7626  INFO < Click "Terms Agreement Check Box" control (0.104s)
+2021-12-15 17:13:31.7630  INFO > Assert: "Continue" button enabled state should be true
+2021-12-15 17:13:31.7630  INFO > Assert: "Continue" button enabled state should be true
+2021-12-15 17:13:31.7636 TRACE - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:31.7636 TRACE - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:31.7784 TRACE - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.014s) >> Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:31.7784 TRACE - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.014s) >> Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:31.7879 TRACE - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:31.7879 TRACE - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:31.8118 TRACE - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca } (0.023s) >> Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:31.8118 TRACE - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca } (0.023s) >> Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:31.8249  INFO < Assert: "Continue" button enabled state should be true (0.061s)
+2021-12-15 17:13:31.8249  INFO < Assert: "Continue" button enabled state should be true (0.061s)
+2021-12-15 17:13:33.8745  INFO > Click "Continue" button
+2021-12-15 17:13:33.8745  INFO > Click "Continue" button
+2021-12-15 17:13:33.8754 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Continue" button
+2021-12-15 17:13:33.8754 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Continue" button
+2021-12-15 17:13:33.8761 TRACE - - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:33.8761 TRACE - - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:33.8859 TRACE - - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.009s) >> Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:33.8859 TRACE - - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.009s) >> Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:33.8865 TRACE - - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:33.8865 TRACE - - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:33.9074 TRACE - - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca } (0.020s) >> Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:33.9074 TRACE - - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca } (0.020s) >> Element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:33.9079 TRACE - - > Click element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:33.9079 TRACE - - > Click element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca }
+2021-12-15 17:13:34.0260 TRACE - - < Click element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca } (0.118s)
+2021-12-15 17:13:34.0260 TRACE - - < Click element { Id=41b87efd-85d5-4dbd-938d-32e02b2ea2ca } (0.118s)
+2021-12-15 17:13:34.0265 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Continue" button (0.151s)
+2021-12-15 17:13:34.0265 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Continue" button (0.151s)
+2021-12-15 17:13:34.0267  INFO < Click "Continue" button (0.152s)
+2021-12-15 17:13:34.0267  INFO < Click "Continue" button (0.152s)
+-> done: RegisterSteps.WhenUserProvideDataToRegistrationForm() (5,0s)
+And Personal data
+2021-12-15 17:13:34.0288  INFO > Set "Candice" to "First Name Input" text input
+2021-12-15 17:13:34.0288  INFO > Set "Candice" to "First Name Input" text input
+2021-12-15 17:13:34.0292 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "First Name Input" text input
+2021-12-15 17:13:34.0292 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "First Name Input" text input
+2021-12-15 17:13:34.0307 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.PersonalSection.first_name']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:34.0307 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.PersonalSection.first_name']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:34.0604 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.PersonalSection.first_name']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.029s) >> Element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 }
+2021-12-15 17:13:34.0604 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.PersonalSection.first_name']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.029s) >> Element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 }
+2021-12-15 17:13:34.0610 TRACE - - > Clear element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 }
+2021-12-15 17:13:34.0610 TRACE - - > Clear element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 }
+2021-12-15 17:13:34.0958 TRACE - - < Clear element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 } (0.034s)
+2021-12-15 17:13:34.0958 TRACE - - < Clear element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 } (0.034s)
+2021-12-15 17:13:34.0963 TRACE - - > Send keys "Candice" to element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 }
+2021-12-15 17:13:34.0963 TRACE - - > Send keys "Candice" to element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 }
+2021-12-15 17:13:34.1638 TRACE - - < Send keys "Candice" to element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 } (0.067s)
+2021-12-15 17:13:34.1638 TRACE - - < Send keys "Candice" to element { Id=d3758ae5-dce1-425b-907e-9fd9c1321a65 } (0.067s)
+2021-12-15 17:13:34.1644 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "First Name Input" text input (0.135s)
+2021-12-15 17:13:34.1644 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "First Name Input" text input (0.135s)
+2021-12-15 17:13:34.1650  INFO < Set "Candice" to "First Name Input" text input (0.136s)
+2021-12-15 17:13:34.1650  INFO < Set "Candice" to "First Name Input" text input (0.136s)
+2021-12-15 17:13:34.1659  INFO > Set "Konopelski" to "Last Name Input" text input
+2021-12-15 17:13:34.1659  INFO > Set "Konopelski" to "Last Name Input" text input
+2021-12-15 17:13:34.1666 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Last Name Input" text input
+2021-12-15 17:13:34.1666 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Last Name Input" text input
+2021-12-15 17:13:34.1677 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.PersonalSection.last_name']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:34.1677 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.PersonalSection.last_name']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:34.2043 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.PersonalSection.last_name']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.036s) >> Element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d }
+2021-12-15 17:13:34.2043 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.PersonalSection.last_name']/descendant-or-self::input[@type='text' or not(@type)]" in ChromeDriver (0.036s) >> Element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d }
+2021-12-15 17:13:34.2049 TRACE - - > Clear element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d }
+2021-12-15 17:13:34.2049 TRACE - - > Clear element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d }
+2021-12-15 17:13:34.2398 TRACE - - < Clear element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d } (0.034s)
+2021-12-15 17:13:34.2398 TRACE - - < Clear element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d } (0.034s)
+2021-12-15 17:13:34.2404 TRACE - - > Send keys "Konopelski" to element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d }
+2021-12-15 17:13:34.2404 TRACE - - > Send keys "Konopelski" to element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d }
+2021-12-15 17:13:34.3209 TRACE - - < Send keys "Konopelski" to element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d } (0.080s)
+2021-12-15 17:13:34.3209 TRACE - - < Send keys "Konopelski" to element { Id=0c767a7d-fb2f-4a34-94ea-62f565eecd9d } (0.080s)
+2021-12-15 17:13:34.3214 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Last Name Input" text input (0.154s)
+2021-12-15 17:13:34.3214 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Last Name Input" text input (0.154s)
+2021-12-15 17:13:34.3216  INFO < Set "Konopelski" to "Last Name Input" text input (0.155s)
+2021-12-15 17:13:34.3216  INFO < Set "Konopelski" to "Last Name Input" text input (0.155s)
+2021-12-15 17:13:34.3229 TRACE > Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Day Input" number input
+2021-12-15 17:13:34.3229 TRACE > Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Day Input" number input
+2021-12-15 17:13:34.3233  INFO - > Wait: "Birth Day Input" number input enabled state should be true
+2021-12-15 17:13:34.3233  INFO - > Wait: "Birth Day Input" number input enabled state should be true
+2021-12-15 17:13:34.3238 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.DateOfBirthInput.day']/descendant-or-self::input[@type='number' or @type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:34.3238 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.DateOfBirthInput.day']/descendant-or-self::input[@type='number' or @type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:34.3516 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.DateOfBirthInput.day']/descendant-or-self::input[@type='number' or @type='text' or not(@type)]" in ChromeDriver (0.027s) >> Element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe }
+2021-12-15 17:13:34.3516 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.DateOfBirthInput.day']/descendant-or-self::input[@type='number' or @type='text' or not(@type)]" in ChromeDriver (0.027s) >> Element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe }
+2021-12-15 17:13:34.3644  INFO - < Wait: "Birth Day Input" number input enabled state should be true (0.041s)
+2021-12-15 17:13:34.3644  INFO - < Wait: "Birth Day Input" number input enabled state should be true (0.041s)
+2021-12-15 17:13:34.3648 TRACE < Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Day Input" number input (0.041s)
+2021-12-15 17:13:34.3648 TRACE < Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Day Input" number input (0.041s)
+2021-12-15 17:13:34.3655  INFO > Set "30" to "Birth Day Input" number input
+2021-12-15 17:13:34.3655  INFO > Set "30" to "Birth Day Input" number input
+2021-12-15 17:13:34.3662 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Day Input" number input
+2021-12-15 17:13:34.3662 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Day Input" number input
+2021-12-15 17:13:34.3668 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.DateOfBirthInput.day']/descendant-or-self::input[@type='number' or @type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:34.3668 TRACE - - > Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.DateOfBirthInput.day']/descendant-or-self::input[@type='number' or @type='text' or not(@type)]" in ChromeDriver
+2021-12-15 17:13:34.3894 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.DateOfBirthInput.day']/descendant-or-self::input[@type='number' or @type='text' or not(@type)]" in ChromeDriver (0.022s) >> Element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe }
+2021-12-15 17:13:34.3894 TRACE - - < Find visible element by XPath ".//*[normalize-space(@id) = 'RegistrationPage.DateOfBirthInput.day']/descendant-or-self::input[@type='number' or @type='text' or not(@type)]" in ChromeDriver (0.022s) >> Element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe }
+2021-12-15 17:13:34.3899 TRACE - - > Clear element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe }
+2021-12-15 17:13:34.3899 TRACE - - > Clear element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe }
+2021-12-15 17:13:34.4350 TRACE - - < Clear element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe } (0.045s)
+2021-12-15 17:13:34.4350 TRACE - - < Clear element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe } (0.045s)
+2021-12-15 17:13:34.4357 TRACE - - > Send keys "30" to element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe }
+2021-12-15 17:13:34.4357 TRACE - - > Send keys "30" to element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe }
+2021-12-15 17:13:34.4732 TRACE - - < Send keys "30" to element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe } (0.037s)
+2021-12-15 17:13:34.4732 TRACE - - < Send keys "30" to element { Id=8245e630-fe88-4473-8bbf-7aa1e690dcfe } (0.037s)
+2021-12-15 17:13:34.4737 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Day Input" number input (0.107s)
+2021-12-15 17:13:34.4737 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Day Input" number input (0.107s)
+2021-12-15 17:13:34.4739  INFO < Set "30" to "Birth Day Input" number input (0.108s)
+2021-12-15 17:13:34.4739  INFO < Set "30" to "Birth Day Input" number input (0.108s)
+2021-12-15 17:13:34.4743 TRACE > Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Month Input" number input
+2021-12-15 17:13:34.4743 TRACE > Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Month Input" number input
+2021-12-15 17:13:34.4747  INFO - > Wait: "Birth Month Input" number input enabled state should be true
+2021-12-15 17:13:34.4747  INFO - > Wait: "Birth Month Input" number input enabled state should be true
+2021-12-15 17:13:34.4760 TRACE - - > Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.month']" in ChromeDriver
+2021-12-15 17:13:34.4760 TRACE - - > Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.month']" in ChromeDriver
+2021-12-15 17:13:34.4894 TRACE - - < Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.month']" in ChromeDriver (0.013s) >> Element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 }
+2021-12-15 17:13:34.4894 TRACE - - < Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.month']" in ChromeDriver (0.013s) >> Element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 }
+2021-12-15 17:13:34.4991  INFO - < Wait: "Birth Month Input" number input enabled state should be true (0.024s)
+2021-12-15 17:13:34.4991  INFO - < Wait: "Birth Month Input" number input enabled state should be true (0.024s)
+2021-12-15 17:13:34.4996 TRACE < Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Month Input" number input (0.025s)
+2021-12-15 17:13:34.4996 TRACE < Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Month Input" number input (0.025s)
+2021-12-15 17:13:34.4998  INFO > Set "5" to "Birth Month Input" number input
+2021-12-15 17:13:34.4998  INFO > Set "5" to "Birth Month Input" number input
+2021-12-15 17:13:34.5001 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Month Input" number input
+2021-12-15 17:13:34.5001 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Month Input" number input
+2021-12-15 17:13:34.5005 TRACE - - > Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.month']" in ChromeDriver
+2021-12-15 17:13:34.5005 TRACE - - > Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.month']" in ChromeDriver
+2021-12-15 17:13:34.5091 TRACE - - < Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.month']" in ChromeDriver (0.008s) >> Element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 }
+2021-12-15 17:13:34.5091 TRACE - - < Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.month']" in ChromeDriver (0.008s) >> Element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 }
+2021-12-15 17:13:34.5096 TRACE - - > Clear element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 }
+2021-12-15 17:13:34.5096 TRACE - - > Clear element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 }
+2021-12-15 17:13:34.5424 TRACE - - < Clear element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 } (0.032s)
+2021-12-15 17:13:34.5424 TRACE - - < Clear element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 } (0.032s)
+2021-12-15 17:13:34.5430 TRACE - - > Send keys "5" to element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 }
+2021-12-15 17:13:34.5430 TRACE - - > Send keys "5" to element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 }
+2021-12-15 17:13:34.5808 TRACE - - < Send keys "5" to element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 } (0.037s)
+2021-12-15 17:13:34.5808 TRACE - - < Send keys "5" to element { Id=6035be2d-0b67-436f-8891-d38d47fd6890 } (0.037s)
+2021-12-15 17:13:34.5815 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Month Input" number input (0.081s)
+2021-12-15 17:13:34.5815 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Month Input" number input (0.081s)
+2021-12-15 17:13:34.5817  INFO < Set "5" to "Birth Month Input" number input (0.081s)
+2021-12-15 17:13:34.5817  INFO < Set "5" to "Birth Month Input" number input (0.081s)
+2021-12-15 17:13:34.5820 TRACE > Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Year Input" number input
+2021-12-15 17:13:34.5820 TRACE > Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Year Input" number input
+2021-12-15 17:13:34.5822  INFO - > Wait: "Birth Year Input" number input enabled state should be true
+2021-12-15 17:13:34.5822  INFO - > Wait: "Birth Year Input" number input enabled state should be true
+2021-12-15 17:13:34.5834 TRACE - - > Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.year']" in ChromeDriver
+2021-12-15 17:13:34.5834 TRACE - - > Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.year']" in ChromeDriver
+2021-12-15 17:13:34.5971 TRACE - - < Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.year']" in ChromeDriver (0.013s) >> Element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e }
+2021-12-15 17:13:34.5971 TRACE - - < Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.year']" in ChromeDriver (0.013s) >> Element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e }
+2021-12-15 17:13:34.6077  INFO - < Wait: "Birth Year Input" number input enabled state should be true (0.025s)
+2021-12-15 17:13:34.6077  INFO - < Wait: "Birth Year Input" number input enabled state should be true (0.025s)
+2021-12-15 17:13:34.6082 TRACE < Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Year Input" number input (0.026s)
+2021-12-15 17:13:34.6082 TRACE < Execute trigger WaitUntilEnabledAttribute { Timeout=5, RetryInterval=0.5 } on BeforeSet against "Birth Year Input" number input (0.026s)
+2021-12-15 17:13:34.6085  INFO > Set "2002" to "Birth Year Input" number input
+2021-12-15 17:13:34.6085  INFO > Set "2002" to "Birth Year Input" number input
+2021-12-15 17:13:34.6087 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Year Input" number input
+2021-12-15 17:13:34.6087 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Year Input" number input
+2021-12-15 17:13:34.6091 TRACE - - > Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.year']" in ChromeDriver
+2021-12-15 17:13:34.6091 TRACE - - > Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.year']" in ChromeDriver
+2021-12-15 17:13:34.6174 TRACE - - < Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.year']" in ChromeDriver (0.008s) >> Element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e }
+2021-12-15 17:13:34.6174 TRACE - - < Find element by XPath ".//input[@type='number' or @type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.DateOfBirthInput.year']" in ChromeDriver (0.008s) >> Element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e }
+2021-12-15 17:13:34.6183 TRACE - - > Clear element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e }
+2021-12-15 17:13:34.6183 TRACE - - > Clear element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e }
+2021-12-15 17:13:34.6569 TRACE - - < Clear element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e } (0.038s)
+2021-12-15 17:13:34.6569 TRACE - - < Clear element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e } (0.038s)
+2021-12-15 17:13:34.6576 TRACE - - > Send keys "2002" to element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e }
+2021-12-15 17:13:34.6576 TRACE - - > Send keys "2002" to element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e }
+2021-12-15 17:13:34.7032 TRACE - - < Send keys "2002" to element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e } (0.045s)
+2021-12-15 17:13:34.7032 TRACE - - < Send keys "2002" to element { Id=2b3df10a-1687-4f09-a992-b7cb5467b22e } (0.045s)
+2021-12-15 17:13:34.7041 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Year Input" number input (0.095s)
+2021-12-15 17:13:34.7041 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Birth Year Input" number input (0.095s)
+2021-12-15 17:13:34.7048  INFO < Set "2002" to "Birth Year Input" number input (0.096s)
+2021-12-15 17:13:34.7048  INFO < Set "2002" to "Birth Year Input" number input (0.096s)
+2021-12-15 17:13:34.7053  INFO > Click "Title" button
+2021-12-15 17:13:34.7053  INFO > Click "Title" button
+2021-12-15 17:13:34.7060 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Title" button
+2021-12-15 17:13:34.7060 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Title" button
+2021-12-15 17:13:34.7071 TRACE - - > Find visible element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'RegistrationPage.PersonalSection.title.Mr']" in ChromeDriver
+2021-12-15 17:13:34.7071 TRACE - - > Find visible element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'RegistrationPage.PersonalSection.title.Mr']" in ChromeDriver
+2021-12-15 17:13:34.7337 TRACE - - < Find visible element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'RegistrationPage.PersonalSection.title.Mr']" in ChromeDriver (0.026s) >> Element { Id=bc892d44-7dc9-4a80-8fb0-9202591e4748 }
+2021-12-15 17:13:34.7337 TRACE - - < Find visible element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'RegistrationPage.PersonalSection.title.Mr']" in ChromeDriver (0.026s) >> Element { Id=bc892d44-7dc9-4a80-8fb0-9202591e4748 }
+2021-12-15 17:13:34.7345 TRACE - - > Click element { Id=bc892d44-7dc9-4a80-8fb0-9202591e4748 }
+2021-12-15 17:13:34.7345 TRACE - - > Click element { Id=bc892d44-7dc9-4a80-8fb0-9202591e4748 }
+2021-12-15 17:13:34.7903 TRACE - - < Click element { Id=bc892d44-7dc9-4a80-8fb0-9202591e4748 } (0.055s)
+2021-12-15 17:13:34.7903 TRACE - - < Click element { Id=bc892d44-7dc9-4a80-8fb0-9202591e4748 } (0.055s)
+2021-12-15 17:13:34.7908 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Title" button (0.084s)
+2021-12-15 17:13:34.7908 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Title" button (0.084s)
+2021-12-15 17:13:34.7911  INFO < Click "Title" button (0.085s)
+2021-12-15 17:13:34.7911  INFO < Click "Title" button (0.085s)
+2021-12-15 17:13:34.7919  INFO > Assert: "Continue" button visible state should be true
+2021-12-15 17:13:34.7919  INFO > Assert: "Continue" button visible state should be true
+2021-12-15 17:13:34.7927 TRACE - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:34.7927 TRACE - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:34.8036 TRACE - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.010s) >> Element { Id=089d991d-65fc-44e3-a4c0-46de9792c363 }
+2021-12-15 17:13:34.8036 TRACE - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.010s) >> Element { Id=089d991d-65fc-44e3-a4c0-46de9792c363 }
+2021-12-15 17:13:34.8048 TRACE - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=089d991d-65fc-44e3-a4c0-46de9792c363 }
+2021-12-15 17:13:34.8048 TRACE - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=089d991d-65fc-44e3-a4c0-46de9792c363 }
+2021-12-15 17:13:34.8285 TRACE - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=089d991d-65fc-44e3-a4c0-46de9792c363 } (0.023s) >> Element { Id=089d991d-65fc-44e3-a4c0-46de9792c363 }
+2021-12-15 17:13:34.8285 TRACE - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=089d991d-65fc-44e3-a4c0-46de9792c363 } (0.023s) >> Element { Id=089d991d-65fc-44e3-a4c0-46de9792c363 }
+2021-12-15 17:13:34.8410  INFO < Assert: "Continue" button visible state should be true (0.049s)
+2021-12-15 17:13:34.8410  INFO < Assert: "Continue" button visible state should be true (0.049s)
+-> done: RegisterSteps.WhenPersonalData() (1,2s)
+And Security data
+2021-12-15 17:13:35.2374  INFO > Set "869-216-7404" to "Phone Input" telephone input
+2021-12-15 17:13:35.2374  INFO > Set "869-216-7404" to "Phone Input" telephone input
+2021-12-15 17:13:35.2380 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Phone Input" telephone input
+2021-12-15 17:13:35.2380 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Phone Input" telephone input
+2021-12-15 17:13:35.2387 TRACE - - > Find elements by CSS selector "[data-actionable = 'RegistrationPage.TelephoneNumberInput.telephone.floatingHelp']" in ChromeDriver
+2021-12-15 17:13:35.2387 TRACE - - > Find elements by CSS selector "[data-actionable = 'RegistrationPage.TelephoneNumberInput.telephone.floatingHelp']" in ChromeDriver
+2021-12-15 17:13:35.2550 TRACE - - < Find elements by CSS selector "[data-actionable = 'RegistrationPage.TelephoneNumberInput.telephone.floatingHelp']" in ChromeDriver (0.015s) >> [Element { Id=0ba87186-ca1f-475f-9c72-c710e4dee3cb }, Element { Id=a0792431-d18f-4656-a2cb-f6be2eac31f1 }, Element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }, Element { Id=e79eb3f6-8f9f-4351-8aa7-e7c0771ca032 }]
+2021-12-15 17:13:35.2550 TRACE - - < Find elements by CSS selector "[data-actionable = 'RegistrationPage.TelephoneNumberInput.telephone.floatingHelp']" in ChromeDriver (0.015s) >> [Element { Id=0ba87186-ca1f-475f-9c72-c710e4dee3cb }, Element { Id=a0792431-d18f-4656-a2cb-f6be2eac31f1 }, Element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }, Element { Id=e79eb3f6-8f9f-4351-8aa7-e7c0771ca032 }]
+2021-12-15 17:13:35.2554 TRACE - - > Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=0ba87186-ca1f-475f-9c72-c710e4dee3cb }
+2021-12-15 17:13:35.2554 TRACE - - > Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=0ba87186-ca1f-475f-9c72-c710e4dee3cb }
+2021-12-15 17:13:35.2837 TRACE - - < Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=0ba87186-ca1f-475f-9c72-c710e4dee3cb } (0.028s) >> null
+2021-12-15 17:13:35.2837 TRACE - - < Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=0ba87186-ca1f-475f-9c72-c710e4dee3cb } (0.028s) >> null
+2021-12-15 17:13:35.2843 TRACE - - > Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=a0792431-d18f-4656-a2cb-f6be2eac31f1 }
+2021-12-15 17:13:35.2843 TRACE - - > Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=a0792431-d18f-4656-a2cb-f6be2eac31f1 }
+2021-12-15 17:13:35.2985 TRACE - - < Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=a0792431-d18f-4656-a2cb-f6be2eac31f1 } (0.014s) >> null
+2021-12-15 17:13:35.2985 TRACE - - < Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=a0792431-d18f-4656-a2cb-f6be2eac31f1 } (0.014s) >> null
+2021-12-15 17:13:35.2990 TRACE - - > Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }
+2021-12-15 17:13:35.2990 TRACE - - > Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }
+2021-12-15 17:13:35.3287 TRACE - - < Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca } (0.029s) >> Element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }
+2021-12-15 17:13:35.3287 TRACE - - < Find visible element by XPath "descendant-or-self::input[@type='tel']" in Element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca } (0.029s) >> Element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }
+2021-12-15 17:13:35.3292 TRACE - - > Clear element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }
+2021-12-15 17:13:35.3292 TRACE - - > Clear element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }
+2021-12-15 17:13:35.3625 TRACE - - < Clear element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca } (0.033s)
+2021-12-15 17:13:35.3625 TRACE - - < Clear element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca } (0.033s)
+2021-12-15 17:13:35.3630 TRACE - - > Send keys "869-216-7404" to element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }
+2021-12-15 17:13:35.3630 TRACE - - > Send keys "869-216-7404" to element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca }
+2021-12-15 17:13:35.4813 TRACE - - < Send keys "869-216-7404" to element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca } (0.118s)
+2021-12-15 17:13:35.4813 TRACE - - < Send keys "869-216-7404" to element { Id=1afd6582-d4ce-448d-a8db-9fb3de9a2eca } (0.118s)
+2021-12-15 17:13:35.4821 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Phone Input" telephone input (0.244s)
+2021-12-15 17:13:35.4821 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Phone Input" telephone input (0.244s)
+2021-12-15 17:13:35.4823  INFO < Set "869-216-7404" to "Phone Input" telephone input (0.244s)
+2021-12-15 17:13:35.4823  INFO < Set "869-216-7404" to "Phone Input" telephone input (0.244s)
+2021-12-15 17:13:35.4826  INFO > Set "Your mother's maiden name?" to "Question List" select
+2021-12-15 17:13:35.4826  INFO > Set "Your mother's maiden name?" to "Question List" select
+2021-12-15 17:13:35.4886 TRACE - > Click "Question List" select's "Your mother's maiden name?" option
+2021-12-15 17:13:35.4886 TRACE - > Click "Question List" select's "Your mother's maiden name?" option
+2021-12-15 17:13:35.4889 TRACE - - > Execute behavior ClickUsingClickMethodAttribute against "Question List" select's "Your mother's maiden name?" option
+2021-12-15 17:13:35.4889 TRACE - - > Execute behavior ClickUsingClickMethodAttribute against "Question List" select's "Your mother's maiden name?" option
+2021-12-15 17:13:35.4898 TRACE - - - > Find element by XPath ".//select[normalize-space(@data-actionable) = 'RegistrationPage.Dropdown.desktop-securityQuestion']" in ChromeDriver
+2021-12-15 17:13:35.4898 TRACE - - - > Find element by XPath ".//select[normalize-space(@data-actionable) = 'RegistrationPage.Dropdown.desktop-securityQuestion']" in ChromeDriver
+2021-12-15 17:13:35.5060 TRACE - - - < Find element by XPath ".//select[normalize-space(@data-actionable) = 'RegistrationPage.Dropdown.desktop-securityQuestion']" in ChromeDriver (0.016s) >> Element { Id=e93ef91c-029a-464f-bf87-1dc0a30f89d3 }
+2021-12-15 17:13:35.5060 TRACE - - - < Find element by XPath ".//select[normalize-space(@data-actionable) = 'RegistrationPage.Dropdown.desktop-securityQuestion']" in ChromeDriver (0.016s) >> Element { Id=e93ef91c-029a-464f-bf87-1dc0a30f89d3 }
+2021-12-15 17:13:35.5092 TRACE - - - > Find visible element by XPath ".//option[normalize-space(.) = "Your mother's maiden name?"]" in Element { Id=e93ef91c-029a-464f-bf87-1dc0a30f89d3 }
+2021-12-15 17:13:35.5092 TRACE - - - > Find visible element by XPath ".//option[normalize-space(.) = "Your mother's maiden name?"]" in Element { Id=e93ef91c-029a-464f-bf87-1dc0a30f89d3 }
+2021-12-15 17:13:35.5318 TRACE - - - < Find visible element by XPath ".//option[normalize-space(.) = "Your mother's maiden name?"]" in Element { Id=e93ef91c-029a-464f-bf87-1dc0a30f89d3 } (0.022s) >> Element { Id=dc864eb9-25f8-482c-bad8-80fb33d4e024 }
+2021-12-15 17:13:35.5318 TRACE - - - < Find visible element by XPath ".//option[normalize-space(.) = "Your mother's maiden name?"]" in Element { Id=e93ef91c-029a-464f-bf87-1dc0a30f89d3 } (0.022s) >> Element { Id=dc864eb9-25f8-482c-bad8-80fb33d4e024 }
+2021-12-15 17:13:35.5322 TRACE - - - > Click element { Id=dc864eb9-25f8-482c-bad8-80fb33d4e024 }
+2021-12-15 17:13:35.5322 TRACE - - - > Click element { Id=dc864eb9-25f8-482c-bad8-80fb33d4e024 }
+2021-12-15 17:13:35.5772 TRACE - - - < Click element { Id=dc864eb9-25f8-482c-bad8-80fb33d4e024 } (0.045s)
+2021-12-15 17:13:35.5772 TRACE - - - < Click element { Id=dc864eb9-25f8-482c-bad8-80fb33d4e024 } (0.045s)
+2021-12-15 17:13:35.5777 TRACE - - < Execute behavior ClickUsingClickMethodAttribute against "Question List" select's "Your mother's maiden name?" option (0.088s)
+2021-12-15 17:13:35.5777 TRACE - - < Execute behavior ClickUsingClickMethodAttribute against "Question List" select's "Your mother's maiden name?" option (0.088s)
+2021-12-15 17:13:35.5781 TRACE - < Click "Question List" select's "Your mother's maiden name?" option (0.089s)
+2021-12-15 17:13:35.5781 TRACE - < Click "Question List" select's "Your mother's maiden name?" option (0.089s)
+2021-12-15 17:13:35.5783  INFO < Set "Your mother's maiden name?" to "Question List" select (0.095s)
+2021-12-15 17:13:35.5783  INFO < Set "Your mother's maiden name?" to "Question List" select (0.095s)
+2021-12-15 17:13:35.5787  INFO > Set "Konopelski" to "Question Answear Input" text input
+2021-12-15 17:13:35.5787  INFO > Set "Konopelski" to "Question Answear Input" text input
+2021-12-15 17:13:35.5791 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Question Answear Input" text input
+2021-12-15 17:13:35.5791 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Question Answear Input" text input
+2021-12-15 17:13:35.5796 TRACE - - > Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.ContactSection.desktop_security_answer']" in ChromeDriver
+2021-12-15 17:13:35.5796 TRACE - - > Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.ContactSection.desktop_security_answer']" in ChromeDriver
+2021-12-15 17:13:35.5950 TRACE - - < Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.ContactSection.desktop_security_answer']" in ChromeDriver (0.015s) >> Element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc }
+2021-12-15 17:13:35.5950 TRACE - - < Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.ContactSection.desktop_security_answer']" in ChromeDriver (0.015s) >> Element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc }
+2021-12-15 17:13:35.5955 TRACE - - > Clear element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc }
+2021-12-15 17:13:35.5955 TRACE - - > Clear element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc }
+2021-12-15 17:13:35.6302 TRACE - - < Clear element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc } (0.034s)
+2021-12-15 17:13:35.6302 TRACE - - < Clear element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc } (0.034s)
+2021-12-15 17:13:35.6307 TRACE - - > Send keys "Konopelski" to element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc }
+2021-12-15 17:13:35.6307 TRACE - - > Send keys "Konopelski" to element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc }
+2021-12-15 17:13:35.6927 TRACE - - < Send keys "Konopelski" to element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc } (0.061s)
+2021-12-15 17:13:35.6927 TRACE - - < Send keys "Konopelski" to element { Id=65ef13ca-8e3c-4df2-86e6-0320ecabdfbc } (0.061s)
+2021-12-15 17:13:35.6931 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Question Answear Input" text input (0.113s)
+2021-12-15 17:13:35.6931 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Question Answear Input" text input (0.113s)
+2021-12-15 17:13:35.6934  INFO < Set "Konopelski" to "Question Answear Input" text input (0.114s)
+2021-12-15 17:13:35.6934  INFO < Set "Konopelski" to "Question Answear Input" text input (0.114s)
+2021-12-15 17:13:37.7386 TRACE > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:37.7386 TRACE > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:37.7506 TRACE < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.011s) >> [Element { Id=0134422d-3430-469e-ac5a-da83189bfc28 }, Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf }]
+2021-12-15 17:13:37.7506 TRACE < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.011s) >> [Element { Id=0134422d-3430-469e-ac5a-da83189bfc28 }, Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf }]
+2021-12-15 17:13:37.7512 TRACE > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=0134422d-3430-469e-ac5a-da83189bfc28 }
+2021-12-15 17:13:37.7512 TRACE > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=0134422d-3430-469e-ac5a-da83189bfc28 }
+2021-12-15 17:13:37.7805 TRACE < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=0134422d-3430-469e-ac5a-da83189bfc28 } (0.029s) >> null
+2021-12-15 17:13:37.7805 TRACE < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=0134422d-3430-469e-ac5a-da83189bfc28 } (0.029s) >> null
+2021-12-15 17:13:37.7809 TRACE > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf }
+2021-12-15 17:13:37.7809 TRACE > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf }
+2021-12-15 17:13:37.8102 TRACE < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf } (0.029s) >> Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf }
+2021-12-15 17:13:37.8102 TRACE < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf } (0.029s) >> Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf }
+2021-12-15 17:13:37.8124 TRACE > Execute script "arguments[0].click();" with argument: Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf }
+2021-12-15 17:13:37.8124 TRACE > Execute script "arguments[0].click();" with argument: Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf }
+2021-12-15 17:13:37.9378 TRACE < Execute script "arguments[0].click();" with argument: Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf } (0.125s) >> null
+2021-12-15 17:13:37.9378 TRACE < Execute script "arguments[0].click();" with argument: Element { Id=b94ffb76-4420-48e0-aa31-e65d93df7eaf } (0.125s) >> null
+-> done: RegisterSteps.WhenSecurityData() (2,7s)
+And Address data
+2021-12-15 17:13:37.9405  INFO > Click "Outside UK" button
+2021-12-15 17:13:37.9405  INFO > Click "Outside UK" button
+2021-12-15 17:13:37.9412 TRACE - > Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Outside UK" button
+2021-12-15 17:13:37.9412 TRACE - > Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Outside UK" button
+2021-12-15 17:13:37.9422 TRACE - - > Find element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'InputLabel.outsidetheuk?']" in ChromeDriver
+2021-12-15 17:13:37.9422 TRACE - - > Find element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'InputLabel.outsidetheuk?']" in ChromeDriver
+2021-12-15 17:13:37.9602 TRACE - - < Find element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'InputLabel.outsidetheuk?']" in ChromeDriver (0.018s) >> Element { Id=6352a6dc-5aa5-408e-a86b-2999e43b36ba }
+2021-12-15 17:13:37.9602 TRACE - - < Find element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'InputLabel.outsidetheuk?']" in ChromeDriver (0.018s) >> Element { Id=6352a6dc-5aa5-408e-a86b-2999e43b36ba }
+2021-12-15 17:13:38.2925 TRACE - < Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Outside UK" button (0.351s)
+2021-12-15 17:13:38.2925 TRACE - < Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Outside UK" button (0.351s)
+2021-12-15 17:13:38.2929  INFO < Click "Outside UK" button (0.352s)
+2021-12-15 17:13:38.2929  INFO < Click "Outside UK" button (0.352s)
+2021-12-15 17:13:38.2933  INFO > Set "United Kingdom" to "Country List" select
+2021-12-15 17:13:38.2933  INFO > Set "United Kingdom" to "Country List" select
+2021-12-15 17:13:38.2947 TRACE - > Click "Country List" select's "United Kingdom" option
+2021-12-15 17:13:38.2947 TRACE - > Click "Country List" select's "United Kingdom" option
+2021-12-15 17:13:38.2950 TRACE - - > Execute behavior ClickUsingClickMethodAttribute against "Country List" select's "United Kingdom" option
+2021-12-15 17:13:38.2950 TRACE - - > Execute behavior ClickUsingClickMethodAttribute against "Country List" select's "United Kingdom" option
+2021-12-15 17:13:38.2958 TRACE - - - > Find element by XPath ".//select[normalize-space(@data-actionable) = 'RegistrationPage.Dropdown.country']" in ChromeDriver
+2021-12-15 17:13:38.2958 TRACE - - - > Find element by XPath ".//select[normalize-space(@data-actionable) = 'RegistrationPage.Dropdown.country']" in ChromeDriver
+2021-12-15 17:13:38.3121 TRACE - - - < Find element by XPath ".//select[normalize-space(@data-actionable) = 'RegistrationPage.Dropdown.country']" in ChromeDriver (0.016s) >> Element { Id=8513461c-5a09-4146-a398-0db384e6fbe3 }
+2021-12-15 17:13:38.3121 TRACE - - - < Find element by XPath ".//select[normalize-space(@data-actionable) = 'RegistrationPage.Dropdown.country']" in ChromeDriver (0.016s) >> Element { Id=8513461c-5a09-4146-a398-0db384e6fbe3 }
+2021-12-15 17:13:38.3127 TRACE - - - > Find visible element by XPath ".//option[normalize-space(.) = 'United Kingdom']" in Element { Id=8513461c-5a09-4146-a398-0db384e6fbe3 }
+2021-12-15 17:13:38.3127 TRACE - - - > Find visible element by XPath ".//option[normalize-space(.) = 'United Kingdom']" in Element { Id=8513461c-5a09-4146-a398-0db384e6fbe3 }
+2021-12-15 17:13:38.3397 TRACE - - - < Find visible element by XPath ".//option[normalize-space(.) = 'United Kingdom']" in Element { Id=8513461c-5a09-4146-a398-0db384e6fbe3 } (0.026s) >> Element { Id=1678cea9-09c1-41c7-913c-b54d610b4fd7 }
+2021-12-15 17:13:38.3397 TRACE - - - < Find visible element by XPath ".//option[normalize-space(.) = 'United Kingdom']" in Element { Id=8513461c-5a09-4146-a398-0db384e6fbe3 } (0.026s) >> Element { Id=1678cea9-09c1-41c7-913c-b54d610b4fd7 }
+2021-12-15 17:13:38.3411 TRACE - - - > Click element { Id=1678cea9-09c1-41c7-913c-b54d610b4fd7 }
+2021-12-15 17:13:38.3411 TRACE - - - > Click element { Id=1678cea9-09c1-41c7-913c-b54d610b4fd7 }
+2021-12-15 17:13:38.3818 TRACE - - - < Click element { Id=1678cea9-09c1-41c7-913c-b54d610b4fd7 } (0.040s)
+2021-12-15 17:13:38.3818 TRACE - - - < Click element { Id=1678cea9-09c1-41c7-913c-b54d610b4fd7 } (0.040s)
+2021-12-15 17:13:38.3822 TRACE - - < Execute behavior ClickUsingClickMethodAttribute against "Country List" select's "United Kingdom" option (0.087s)
+2021-12-15 17:13:38.3822 TRACE - - < Execute behavior ClickUsingClickMethodAttribute against "Country List" select's "United Kingdom" option (0.087s)
+2021-12-15 17:13:38.3824 TRACE - < Click "Country List" select's "United Kingdom" option (0.087s)
+2021-12-15 17:13:38.3824 TRACE - < Click "Country List" select's "United Kingdom" option (0.087s)
+2021-12-15 17:13:38.3828  INFO < Set "United Kingdom" to "Country List" select (0.089s)
+2021-12-15 17:13:38.3828  INFO < Set "United Kingdom" to "Country List" select (0.089s)
+2021-12-15 17:13:38.3833  INFO > Set "Bruen Mount" to "Address Line Input" text input
+2021-12-15 17:13:38.3833  INFO > Set "Bruen Mount" to "Address Line Input" text input
+2021-12-15 17:13:38.3837 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Address Line Input" text input
+2021-12-15 17:13:38.3837 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Address Line Input" text input
+2021-12-15 17:13:38.3842 TRACE - - > Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.AddressEditor.line1']" in ChromeDriver
+2021-12-15 17:13:38.3842 TRACE - - > Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.AddressEditor.line1']" in ChromeDriver
+2021-12-15 17:13:38.3977 TRACE - - < Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.AddressEditor.line1']" in ChromeDriver (0.013s) >> Element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad }
+2021-12-15 17:13:38.3977 TRACE - - < Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.AddressEditor.line1']" in ChromeDriver (0.013s) >> Element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad }
+2021-12-15 17:13:38.3982 TRACE - - > Clear element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad }
+2021-12-15 17:13:38.3982 TRACE - - > Clear element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad }
+2021-12-15 17:13:38.4321 TRACE - - < Clear element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad } (0.033s)
+2021-12-15 17:13:38.4321 TRACE - - < Clear element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad } (0.033s)
+2021-12-15 17:13:38.4327 TRACE - - > Send keys "Bruen Mount" to element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad }
+2021-12-15 17:13:38.4327 TRACE - - > Send keys "Bruen Mount" to element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad }
+2021-12-15 17:13:38.5419 TRACE - - < Send keys "Bruen Mount" to element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad } (0.109s)
+2021-12-15 17:13:38.5419 TRACE - - < Send keys "Bruen Mount" to element { Id=759f9d6f-abf7-4497-b026-984e896ba2ad } (0.109s)
+2021-12-15 17:13:38.5423 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Address Line Input" text input (0.158s)
+2021-12-15 17:13:38.5423 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "Address Line Input" text input (0.158s)
+2021-12-15 17:13:38.5425  INFO < Set "Bruen Mount" to "Address Line Input" text input (0.159s)
+2021-12-15 17:13:38.5425  INFO < Set "Bruen Mount" to "Address Line Input" text input (0.159s)
+2021-12-15 17:13:38.5427  INFO > Set "Bruen Mount" to "City Input" text input
+2021-12-15 17:13:38.5427  INFO > Set "Bruen Mount" to "City Input" text input
+2021-12-15 17:13:38.5429 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "City Input" text input
+2021-12-15 17:13:38.5429 TRACE - > Execute behavior ValueSetUsingClearAndSendKeysAttribute against "City Input" text input
+2021-12-15 17:13:38.5432 TRACE - - > Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.AddressEditor.city']" in ChromeDriver
+2021-12-15 17:13:38.5432 TRACE - - > Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.AddressEditor.city']" in ChromeDriver
+2021-12-15 17:13:38.5562 TRACE - - < Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.AddressEditor.city']" in ChromeDriver (0.012s) >> Element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 }
+2021-12-15 17:13:38.5562 TRACE - - < Find element by XPath ".//input[@type='text' or not(@type)][normalize-space(@data-actionable) = 'RegistrationPage.AddressEditor.city']" in ChromeDriver (0.012s) >> Element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 }
+2021-12-15 17:13:38.5566 TRACE - - > Clear element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 }
+2021-12-15 17:13:38.5566 TRACE - - > Clear element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 }
+2021-12-15 17:13:38.5860 TRACE - - < Clear element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 } (0.029s)
+2021-12-15 17:13:38.5860 TRACE - - < Clear element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 } (0.029s)
+2021-12-15 17:13:38.5865 TRACE - - > Send keys "Bruen Mount" to element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 }
+2021-12-15 17:13:38.5865 TRACE - - > Send keys "Bruen Mount" to element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 }
+2021-12-15 17:13:38.6982 TRACE - - < Send keys "Bruen Mount" to element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 } (0.111s)
+2021-12-15 17:13:38.6982 TRACE - - < Send keys "Bruen Mount" to element { Id=31063ee8-9b5d-45d5-a84a-c9061919ed90 } (0.111s)
+2021-12-15 17:13:38.6987 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "City Input" text input (0.155s)
+2021-12-15 17:13:38.6987 TRACE - < Execute behavior ValueSetUsingClearAndSendKeysAttribute against "City Input" text input (0.155s)
+2021-12-15 17:13:38.6990  INFO < Set "Bruen Mount" to "City Input" text input (0.156s)
+2021-12-15 17:13:38.6990  INFO < Set "Bruen Mount" to "City Input" text input (0.156s)
+2021-12-15 17:13:38.6997  INFO > Assert: "Continue" button visible state should be true
+2021-12-15 17:13:38.6997  INFO > Assert: "Continue" button visible state should be true
+2021-12-15 17:13:38.7018 TRACE - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:38.7018 TRACE - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:38.7149 TRACE - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.012s) >> Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7149 TRACE - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.012s) >> Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7158 TRACE - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7158 TRACE - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7508 TRACE - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 } (0.034s) >> Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7508 TRACE - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 } (0.034s) >> Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7625  INFO < Assert: "Continue" button visible state should be true (0.062s)
+2021-12-15 17:13:38.7625  INFO < Assert: "Continue" button visible state should be true (0.062s)
+2021-12-15 17:13:38.7630  INFO > Click "Continue" button
+2021-12-15 17:13:38.7630  INFO > Click "Continue" button
+2021-12-15 17:13:38.7633 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Continue" button
+2021-12-15 17:13:38.7633 TRACE - > Execute behavior ClickUsingClickMethodAttribute against "Continue" button
+2021-12-15 17:13:38.7637 TRACE - - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:38.7637 TRACE - - > Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver
+2021-12-15 17:13:38.7736 TRACE - - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.009s) >> Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7736 TRACE - - < Find elements by CSS selector "[data-actionable ^= 'RegistrationPage.NavigationButtonsPage'][data-actionable $= '.Continue']" in ChromeDriver (0.009s) >> Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7742 TRACE - - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7742 TRACE - - > Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7947 TRACE - - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 } (0.020s) >> Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7947 TRACE - - < Find visible element by XPath "descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 } (0.020s) >> Element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7952 TRACE - - > Click element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.7952 TRACE - - > Click element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 }
+2021-12-15 17:13:38.9144 TRACE - - < Click element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 } (0.119s)
+2021-12-15 17:13:38.9144 TRACE - - < Click element { Id=b8504d1f-df2a-4ce9-acf3-7a2b4c00ad81 } (0.119s)
+2021-12-15 17:13:38.9153 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Continue" button (0.151s)
+2021-12-15 17:13:38.9153 TRACE - < Execute behavior ClickUsingClickMethodAttribute against "Continue" button (0.151s)
+2021-12-15 17:13:38.9158  INFO < Click "Continue" button (0.152s)
+2021-12-15 17:13:38.9158  INFO < Click "Continue" button (0.152s)
+-> done: RegisterSteps.WhenAddressData() (1,0s)
+And Confirms registration
+2021-12-15 17:13:38.9196  INFO > Click "First No Marketing Check" checkbox
+2021-12-15 17:13:38.9196  INFO > Click "First No Marketing Check" checkbox
+2021-12-15 17:13:38.9204 TRACE - > Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "First No Marketing Check" checkbox
+2021-12-15 17:13:38.9204 TRACE - > Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "First No Marketing Check" checkbox
+2021-12-15 17:13:38.9220 TRACE - - > Find element by XPath ".//*[normalize-space(@id) = 'firstParty-No Marketing-checkbox']/descendant-or-self::input[@type='checkbox']" in ChromeDriver
+2021-12-15 17:13:38.9220 TRACE - - > Find element by XPath ".//*[normalize-space(@id) = 'firstParty-No Marketing-checkbox']/descendant-or-self::input[@type='checkbox']" in ChromeDriver
+2021-12-15 17:13:38.9399 TRACE - - < Find element by XPath ".//*[normalize-space(@id) = 'firstParty-No Marketing-checkbox']/descendant-or-self::input[@type='checkbox']" in ChromeDriver (0.017s) >> Element { Id=22d33f42-12c4-4d42-b6bf-25ca0aaec4be }
+2021-12-15 17:13:38.9399 TRACE - - < Find element by XPath ".//*[normalize-space(@id) = 'firstParty-No Marketing-checkbox']/descendant-or-self::input[@type='checkbox']" in ChromeDriver (0.017s) >> Element { Id=22d33f42-12c4-4d42-b6bf-25ca0aaec4be }
+2021-12-15 17:13:39.2472 TRACE - < Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "First No Marketing Check" checkbox (0.326s)
+2021-12-15 17:13:39.2472 TRACE - < Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "First No Marketing Check" checkbox (0.326s)
+2021-12-15 17:13:39.2476  INFO < Click "First No Marketing Check" checkbox (0.327s)
+2021-12-15 17:13:39.2476  INFO < Click "First No Marketing Check" checkbox (0.327s)
+2021-12-15 17:13:39.2480  INFO > Click "Third No Marketing Check" checkbox
+2021-12-15 17:13:39.2480  INFO > Click "Third No Marketing Check" checkbox
+2021-12-15 17:13:39.2485 TRACE - > Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Third No Marketing Check" checkbox
+2021-12-15 17:13:39.2485 TRACE - > Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Third No Marketing Check" checkbox
+2021-12-15 17:13:39.2495 TRACE - - > Find element by XPath ".//*[normalize-space(@id) = 'thirdParty-No Marketing-checkbox']/descendant-or-self::input[@type='checkbox']" in ChromeDriver
+2021-12-15 17:13:39.2495 TRACE - - > Find element by XPath ".//*[normalize-space(@id) = 'thirdParty-No Marketing-checkbox']/descendant-or-self::input[@type='checkbox']" in ChromeDriver
+2021-12-15 17:13:39.2701 TRACE - - < Find element by XPath ".//*[normalize-space(@id) = 'thirdParty-No Marketing-checkbox']/descendant-or-self::input[@type='checkbox']" in ChromeDriver (0.020s) >> Element { Id=34f08a70-8077-4f82-abd4-6a221c378cd5 }
+2021-12-15 17:13:39.2701 TRACE - - < Find element by XPath ".//*[normalize-space(@id) = 'thirdParty-No Marketing-checkbox']/descendant-or-self::input[@type='checkbox']" in ChromeDriver (0.020s) >> Element { Id=34f08a70-8077-4f82-abd4-6a221c378cd5 }
+2021-12-15 17:13:39.5742 TRACE - < Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Third No Marketing Check" checkbox (0.325s)
+2021-12-15 17:13:39.5742 TRACE - < Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Third No Marketing Check" checkbox (0.325s)
+2021-12-15 17:13:39.5748  INFO < Click "Third No Marketing Check" checkbox (0.326s)
+2021-12-15 17:13:39.5748  INFO < Click "Third No Marketing Check" checkbox (0.326s)
+2021-12-15 17:13:39.5752  INFO > Click "Register" button
+2021-12-15 17:13:39.5752  INFO > Click "Register" button
+2021-12-15 17:13:39.5757 TRACE - > Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Register" button
+2021-12-15 17:13:39.5757 TRACE - > Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Register" button
+2021-12-15 17:13:39.5771 TRACE - - > Find visible element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'RegistrationPage.NavigationButtonsPage5.Register']" in ChromeDriver
+2021-12-15 17:13:39.5771 TRACE - - > Find visible element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'RegistrationPage.NavigationButtonsPage5.Register']" in ChromeDriver
+2021-12-15 17:13:39.6108 TRACE - - < Find visible element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'RegistrationPage.NavigationButtonsPage5.Register']" in ChromeDriver (0.033s) >> Element { Id=c0a19f5c-d55d-4a20-ab00-f44c45d411e5 }
+2021-12-15 17:13:39.6108 TRACE - - < Find visible element by XPath ".//*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button][normalize-space(@data-actionable) = 'RegistrationPage.NavigationButtonsPage5.Register']" in ChromeDriver (0.033s) >> Element { Id=c0a19f5c-d55d-4a20-ab00-f44c45d411e5 }
+2021-12-15 17:13:39.9741 TRACE - < Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Register" button (0.398s)
+2021-12-15 17:13:39.9741 TRACE - < Execute behavior ClickUsingActionsAttribute { OffsetKind=FromCenterInPercents, OffsetX=0, OffsetY=0 } against "Register" button (0.398s)
+2021-12-15 17:13:39.9746  INFO < Click "Register" button (0.399s)
+2021-12-15 17:13:39.9746  INFO < Click "Register" button (0.399s)
+-> done: RegisterSteps.WhenConfirmsRegistration() (1,1s)
+Then An account is created successfully
+2021-12-15 17:13:39.9783  INFO > Assert: "Register Info" <h3> heading visible state should be true
+2021-12-15 17:13:39.9783  INFO > Assert: "Register Info" <h3> heading visible state should be true
+2021-12-15 17:13:39.9795 TRACE - > Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver
+2021-12-15 17:13:39.9795 TRACE - > Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver
+2021-12-15 17:13:39.9944 TRACE - < Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver (0.014s) >> null
+2021-12-15 17:13:39.9944 TRACE - < Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver (0.014s) >> null
+2021-12-15 17:13:40.4895 TRACE - > Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver
+2021-12-15 17:13:40.4895 TRACE - > Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver
+2021-12-15 17:13:40.5038 TRACE - < Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver (0.014s) >> null
+2021-12-15 17:13:40.5038 TRACE - < Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver (0.014s) >> null
+2021-12-15 17:13:41.0022 TRACE - > Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver
+2021-12-15 17:13:41.0022 TRACE - > Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver
+2021-12-15 17:13:41.0340 TRACE - < Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver (0.031s) >> Element { Id=45b1fddc-abc5-4e86-95bc-57135937cf27 }
+2021-12-15 17:13:41.0340 TRACE - < Find visible element by XPath ".//h3[normalize-space(@data-actionable) = 'RegistrationPage.RegisterHeader.desktop.title']" in ChromeDriver (0.031s) >> Element { Id=45b1fddc-abc5-4e86-95bc-57135937cf27 }
+2021-12-15 17:13:41.0476  INFO < Assert: "Register Info" <h3> heading visible state should be true (1.069s)
+2021-12-15 17:13:41.0476  INFO < Assert: "Register Info" <h3> heading visible state should be true (1.069s)
+-> done: RegisterSteps.ThenAnAccountIsCreatedSuccessfully() (1,1s)
+2021-12-15 17:13:41.0718  INFO > Clean up AtataContext
+2021-12-15 17:13:41.0718  INFO > Clean up AtataContext
+2021-12-15 17:13:41.1778  INFO < Clean up AtataContext (0.105s)
+2021-12-15 17:13:41.1778  INFO < Clean up AtataContext (0.105s)
+2021-12-15 17:13:41.1782  INFO Finished test (17.393s)
+2021-12-15 17:13:41.1782  INFO Finished test (17.393s)
+2021-12-15 17:13:41.1785  INFO Pure test execution time: 15.798s
+2021-12-15 17:13:41.1785  INFO Pure test execution time: 15.798s

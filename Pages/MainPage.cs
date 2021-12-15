@@ -1,5 +1,4 @@
 ﻿using Atata;
-using SharpGaming.Pages;
 
 namespace IFlow.Testing.Pages
 {

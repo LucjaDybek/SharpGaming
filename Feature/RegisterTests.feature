@@ -9,6 +9,6 @@ Scenario: Registration with correct set of data
 	And Security data
 	And Address data
 	And Confirms registration
-	Then An account is created successfully
+    Then An account is created successfully
 
 	

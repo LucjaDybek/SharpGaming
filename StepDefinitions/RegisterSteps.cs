@@ -1,6 +1,7 @@
 ﻿using Atata;
 using IFlow.Testing.Pages;
 using IFlow.Testing.Utils.DataFactory;
+using OpenQA.Selenium;
 using SharpGaming.Pages;
 using SharpGaming.Utils;
 using System;
@@ -31,50 +32,40 @@ namespace IFlow.Testing.StepDefinitions
         public void WhenUserProvideDataToRegistrationForm()
         {
             On<RegisterPage>()
-                .Wait(3)
-                .AcceptCookiesButton.Click()
-                .EmailInput.Set(User.Email)
-                .UserNameInput.Set(User.FirstName+User.LastName)
+                .AcceptCookies().Click()
+                .EmailInput.Set(User.Email) 
+                .UserNameInput.Set(User.UserName)
                 .PasswordInput.Set(User.Password)
+                .TermsAgreementCheckBox.Should.BeEnabled()
                 .TermsAgreementCheckBox.Click()
-                .Wait(3)
-                            //  .ContinueButton.Click();
-                            .ClickContinueButton();
-
+                .ContinueButton.Should.BeEnabled()
+                .IsSucces("RegistrationPage.AccountSection.password")
+                .ContinueButton.Click();
         }
 
         [When(@"Personal data")]
         public void WhenPersonalData()
         {
-            //Click on ContinueButton is performed 2 times,
-            //because probably this element is covered
-            //and the first click takes place below an actual button
-            //I wasn't sure how to fix it - tried to click with offset
-            //but with no success
-
             On<RegisterPage>()
                 .FirstNameInput.Set(User.FirstName)
                 .LastNameInput.Set(User.LastName)
                 .BirthDayInput.Set(UserConsts.RandomDay()[0])
                 .BirthMonthInput.Set(UserConsts.RandomDay()[1])
                 .BirthYearInput.Set(UserConsts.RandomDay()[2])
-              .Wait(3)
-              // .ContinueButton.Click() 
-              //  .ContinueButton.Click();
-              .ClickContinueButton();
+                .TitleButton.Click()
+                .ContinueButton.Should.BeVisible()
+                .ClickContinueButton();
         }
 
         [When(@"Security data")]
         public void WhenSecurityData()
         {
-            On<RegisterPage>()
+            On<RegisterPage>()               
                 .PhoneInput.Set(User.PhoneNumber)
                 .QuestionList.Set(StringConsts.SecurityQuestionMomName)
                 .QuestionAnswearInput.Set(User.LastName)
-                .Wait(3)
-                        .ContinueButton.Click();
-                      //.ClickContinueButton();
-
+                .IsSucces("RegistrationPage.Dropdown.desktop-securityQuestion")
+                .ContinueButton.Script.Click();
         }
 
         [When(@"Address data")]
@@ -85,10 +76,8 @@ namespace IFlow.Testing.StepDefinitions
                 .CountryList.Set("United Kingdom")
                 .AddressLineInput.Set(User.Address)
                 .CityInput.Set(User.Address)
-                     //   .ContinueButton.Click();
-                      .Wait(3)
-                      .ClickContinueButton();
-
+                .ContinueButton.Should.BeVisible()
+                .ContinueButton.Click();
         }
 
         [When(@"Confirms registration")]

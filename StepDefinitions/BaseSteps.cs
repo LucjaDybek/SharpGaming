@@ -36,18 +36,5 @@ namespace IFlow.Testing.StepDefinitions
         {
             return scenarioContext.Get<string>(property); 
         }
-
-        [Obsolete("Visual Studio IntelliSense Work Around", true)]
-        protected void SetSize(ScenarioContext scenarioContext, int sizeA, int sizeB)
-        {
-            scenarioContext.Add(ScenarioContextDataKeys.SizeA, sizeA);
-            scenarioContext.Add(ScenarioContextDataKeys.SizeB, sizeB);
-        }
-
-        [Obsolete("Visual Studio IntelliSense Work Around", true)]
-        protected int GetSize(ScenarioContext scenarioContext, string property)
-        {
-            return scenarioContext.Get<int>(property);
-        }
     }
 }

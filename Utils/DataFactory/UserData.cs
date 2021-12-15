@@ -7,8 +7,6 @@ namespace IFlow.Testing.Utils.DataFactory
 {
     public static class UserData
     {
-        public static readonly User CorrectApiUser = new User(UserConsts.key, UserConsts.header);
-
         [Obsolete("Visual Studio IntelliSense Work Around", true)]
         public static Faker<User> CreateUserData()
         {
@@ -21,7 +19,8 @@ namespace IFlow.Testing.Utils.DataFactory
                               .RuleFor(u => u.Country, f => f.Address.Country())
                               .RuleFor(u => u.PhoneNumber, f => f.Phone.PhoneNumberFormat())
                               .RuleFor(u=>u.Address, f=>f.Address.StreetName())
-                              .RuleFor(u => u.Password, f => f.Internet.Password(9, false, "", "6b"));
+                              .RuleFor(u => u.Password, f => f.Internet.Password(9, false, "", "6b"))
+                              .RuleFor(u => u.UserName, f => f.Internet.UserName());
         }
     }
 }

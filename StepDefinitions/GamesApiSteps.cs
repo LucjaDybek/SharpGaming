@@ -23,7 +23,7 @@ namespace IFlow.Testing.StepDefinitions
         [Then(@"Health service status is correct")]
         public void ThenHealthServiceStatusIsCorrect()
         {
-            ((string)responseData.service).Equals(StringConsts.ResponseStatusOK).Should().BeTrue();
+            ((string)responseData.service).Equals(StringConsts.ResponseServiceOK).Should().BeTrue();
         }
 
         [When(@"User check country information")]
@@ -31,6 +31,7 @@ namespace IFlow.Testing.StepDefinitions
         {
             responseCountries = new List<int>();
             var languageList = LottoPage.TableToList(language);
+
             foreach (var item in languageList)
             {
                 responseData = await GamesApi.GetCountryData(item);
@@ -41,16 +42,7 @@ namespace IFlow.Testing.StepDefinitions
         [Then(@"Number of countries is correct")]
         public void ThenNumberOfCountriesIsCorrect()
         {
-            for (int i = 0; i < responseCountries.Count; i++)
-            {
-                for (int j = responseCountries.Count - 1; j > 0; j--)
-                {
-                    if (i != j)
-                    {
-                        responseCountries[i].Should().Equals(responseCountries[j]);
-                    }
-                }
-            }
+            GamesApi.AreListElementsEqual(responseCountries);
         }
     }
 }

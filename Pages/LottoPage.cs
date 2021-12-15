@@ -5,7 +5,6 @@ using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Threading;
 using TechTalk.SpecFlow;
 
 namespace SharpGaming.Pages
@@ -25,6 +24,7 @@ namespace SharpGaming.Pages
             {
                 driver.FindElement(By.XPath("//button[contains(@class, 'react-calendar__navigation__next-button')]//div[1]")).Click();
             }
+
             driver.FindElement(By.XPath($"//abbr[@aria-label = '{date}']")).Click();
             driver.FindElement(By.CssSelector("[data-actionable='Form.Datepicker.Continue']")).Click();
             return this;

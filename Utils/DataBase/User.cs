@@ -10,13 +10,5 @@
         public string PhoneNumber { get; set; }
         public string Password { get; set; }
         public string Address { get; set; }
-        public string Key { get; set; }
-        public string Header { get; set; }
-
-        public User(string key = "", string header = "")
-        {
-            Key = key;
-            Header = header;
-        }
     }
 }

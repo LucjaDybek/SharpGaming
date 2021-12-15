@@ -1,0 +1,36 @@
+name: Tests Run
+on: 
+  workflow_dispatch:
+  repository_dispatch:
+    types: [be_deployed, fe_deployed]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dotnet-version: ['3.1.x']
+
+    steps:
+    - name: 'Checkout iFLOW.testing'
+      uses: actions/checkout@v2
+    
+    - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: ${{ matrix.dotnet-version }}
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Test
+      run: dotnet test --logger:"nunit;LogFilePath=Reports/test-result.xml" --no-build --no-restore
+      continue-on-error: true
+    - name: Get Xray Cloud API token
+      env:
+        CLIENT_ID: ${{ secrets.CLIENT_ID }}
+        CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+      id: xray-token
+      run: |
+        echo ::set-output name=XRAY_TOKEN::$(curl -H "Content-Type: application/json" -X POST --data "{ \"client_id\": \"$CLIENT_ID\",\"client_secret\": \"$CLIENT_SECRET\" }" https://xray.cloud.xpand-it.com/api/v2/authenticate| tr -d '"')
+    - name: Submit results to Xray
+      run: 'curl -H "Content-Type: text/xml" -H "Authorization: Bearer ${{ steps.xray-token.outputs.XRAY_TOKEN }}" --data @/home/runner/work/IFLOW.testing/IFLOW.testing/Reports/test-result.xml  "https://xray.cloud.xpand-it.com/api/v2/import/execution/nunit?projectKey=IB"'

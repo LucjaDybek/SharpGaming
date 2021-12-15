@@ -23,7 +23,7 @@ namespace IFlow.Testing.StepDefinitions
         [Then(@"Health service status is correct")]
         public void ThenHealthServiceStatusIsCorrect()
         {
-            ((string)responseData.service).Equals(StringConsts.ResponseServiceOK).Should().BeTrue();
+            ((string)responseData.service).Equals(StringTestsConsts.ResponseServiceOK).Should().BeTrue();
         }
 
         [When(@"User check country information")]

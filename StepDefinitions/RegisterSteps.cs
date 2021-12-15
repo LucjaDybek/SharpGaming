@@ -62,7 +62,7 @@ namespace IFlow.Testing.StepDefinitions
         {
             On<RegisterPage>()               
                 .PhoneInput.Set(User.PhoneNumber)
-                .QuestionList.Set(StringConsts.SecurityQuestionMomName)
+                .QuestionList.Set(StringTestsConsts.SecurityQuestionMomName)
                 .QuestionAnswearInput.Set(User.LastName)
                 .IsSucces("RegistrationPage.Dropdown.desktop-securityQuestion")
                 .ContinueButton.Script.Click();
@@ -73,7 +73,7 @@ namespace IFlow.Testing.StepDefinitions
         {
             On<RegisterPage>()
                 .OutsideUKButton.Click()
-                .CountryList.Set("United Kingdom")
+                .CountryList.Set(StringTestsConsts.CountryName)
                 .AddressLineInput.Set(User.Address)
                 .CityInput.Set(User.Address)
                 .ContinueButton.Should.BeVisible()

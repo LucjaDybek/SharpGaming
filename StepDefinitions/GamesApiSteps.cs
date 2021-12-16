@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using IFlow.Testing.Pages;
 using IFlow.Testing.Utils.Api;
 using SharpGaming.Pages;
 using SharpGaming.Utils;
@@ -30,7 +31,7 @@ namespace IFlow.Testing.StepDefinitions
         public async Task WhenUserCheckCountryInformationInLanguageByApi(Table language)
         {
             responseCountries = new List<int>();
-            var languageList = LottoPage.TableToList(language);
+            var languageList = GamesApi.TableToList(language);
 
             foreach (var item in languageList)
             {

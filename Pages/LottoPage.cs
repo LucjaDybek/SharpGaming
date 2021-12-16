@@ -40,16 +40,6 @@ namespace SharpGaming.Pages
             }
         }
 
-        public static List<string> TableToList(Table table)
-        {
-            var list = new List<string>();
-            foreach (var row in table.Rows)
-            {
-                list.Add(row[0]);
-            }
-            return list;
-        }
-
         [FindByCss("[data-actionable = 'Lotto.SelectLottoBanner.Results']")]
         public Clickable<_> ResultsButton { get; set; }
 

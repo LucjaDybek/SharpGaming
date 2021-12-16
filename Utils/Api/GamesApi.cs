@@ -1,8 +1,10 @@
-﻿using FluentAssertions;
+﻿using Atata;
+using FluentAssertions;
 using Flurl.Http;
 using IFlow.Testing.Utils.DataFactory;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TechTalk.SpecFlow;
 
 namespace IFlow.Testing.Utils.Api
 {
@@ -31,6 +33,16 @@ namespace IFlow.Testing.Utils.Api
                     if (i != j) responseCountries[i].Should().Equals(responseCountries[j]);
                 }
             }
+        }
+
+        public static List<string> TableToList(Table table)
+        {
+            var list = new List<string>();
+            foreach (var row in table.Rows)
+            {
+                list.Add(row[0]);
+            }
+            return list;
         }
     }
 }
